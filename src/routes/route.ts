@@ -1,6 +1,6 @@
 export const homeRoute = {
     name: "Home",
-    path: "/",
+    path: "/home",
 }
 
 export const loginRoute = {
