@@ -27,7 +27,7 @@ export default function LoginForm({ onLoginSuccess }: LoginFormProps) {
 
   useEffect(() => {
     if (user) navigate(homeRoute.path);
-  }, [user, navigate]);
+  }, [user]);
   
   return (
     <div className="max-w-md mx-auto bg-white rounded-2xl shadow-lg p-6 mt-10">
