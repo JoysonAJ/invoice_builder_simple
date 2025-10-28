@@ -1,4 +1,4 @@
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Formik, Form, Field, ErrorMessage, type FormikHelpers } from "formik";
 import { registerSchema } from "@/utils/validationSchemas";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import type { User } from "@/types";
