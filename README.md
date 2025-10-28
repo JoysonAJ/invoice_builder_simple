@@ -21,11 +21,25 @@ This project is built using the following technologies and libraries:
 
 ---
 
+  ## 🧭 How to Use the Web App
+
+  - Register using your Full Name, Email, and Password.
+
+  - Your authentication session is stored in localStorage (for both login and registration).
+
+  - If you are already logged in, you’ll be automatically redirected to the Home screen.
+
+  - On the Home screen, you can upload a local PDF file — it will be displayed immediately within the app.
+
+  - You can also fill and submit the form — it won’t be stored anywhere; it just resets after submission.
+
+  - Logout when done to end your session.
+
 ## 🗂️ Folder Structure
 
 src/
   ├── assets/ # Images and static files
-  
+
   ├── components/ # Reusable UI components
   │   └── PDFUploadAndViewer.tsx
   ├── context/ # Context API for authentication
