@@ -21,4 +21,38 @@ This project is built using the following technologies and libraries:
 
 ---
 
-> This stack provides a modern, responsive, and high-performance setup for building scalable React applications with PDF handling and Firebase integration.
+## 🗂️ Folder Structure
+
+src/
+├── assets/ # Images and static files
+├── components/ # Reusable UI components
+│ └── PDFUploadAndViewer.tsx
+├── context/ # Context API for authentication
+│ └── AuthContext.tsx
+├── form/ # Form components
+│ ├── Invoice_Form.tsx
+│ ├── LoginForm.tsx
+│ └── RegisterForm.tsx
+├── hooks/ # Custom React hooks
+│ └── useLocalStorage.ts
+├── layout/ # Layout and header components
+│ ├── Header.tsx
+│ └── Layout.tsx
+├── pages/ # Application pages
+│ ├── auth/
+│ │ ├── Login.tsx
+│ │ └── Register.tsx
+│ └── home/
+│ └── HomePage.tsx
+├── routes/ # Route configuration and guards
+│ ├── ProtectedRoute.tsx
+│ ├── Route.page.tsx
+│ └── route.ts
+├── types/ # TypeScript type definitions
+│ └── index.ts
+├── utils/ # Utility functions and validation
+│ └── validationSchemas.ts
+├── App.tsx # Main App component
+├── main.tsx # Entry point
+├── firebase.config.js # Firebase configuration
+└── index.css # Global styles
