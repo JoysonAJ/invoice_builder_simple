@@ -25,6 +25,7 @@ This project is built using the following technologies and libraries:
 
 src/
   ├── assets/ # Images and static files
+  
   ├── components/ # Reusable UI components
   │   └── PDFUploadAndViewer.tsx
   ├── context/ # Context API for authentication
